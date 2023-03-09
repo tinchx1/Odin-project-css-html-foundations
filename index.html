@@ -6,46 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuervo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="imgs/escudoslo.png">
-        <ul>
-            <li><a href="#">Copas</a></li>
-            <li><a href="#">Hijos</a></li>
-            <li><a href="#">Clásicos</a></li>
-        </ul>
+    <header class="header">
+        <img class="logo" src="imgs/escudoslo.png">
+        <nav>
+            <ul class="nav">
+                <li><a href="#casla">Casla</a></li>
+                <li><a href="#copas">Copas</a></li>
+                <li><a href="#">Clásicos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <body>
-        <section id="#">
+        <section id="casla">
             <div class="left">
-                <h1>San Lorenzo un club enorme</h1>
+                <h1 class="h1">San Lorenzo un club enorme</h1>
                 <p>Este sitio es una demostración de lo inmenso que es San Lorenzo</p>
             </div>
             <img class="right" src="imgs/cancha.jpg" alt="">
         </section>
 
-        <section></section>
-            <h2>Copas</h2>
-            <div>
+        <section id="copas">
+            <h2 class="title-copas">Copas</h2>
+            <div class="tarjet-container">
                 <div class="tarjet">
-                    <img src="" alt="">
+                    <img class="img-copas" src="imgs/libertadores2014.jpg" alt="">
                     <p>Copa Libertadores 2014</p>
                 </div>
                 <div class="tarjet">
-                    <img src="imgs/2002sudemericana.jpg" alt="">
+                    <img class="img-copas" src="imgs/2002sudemericana.jpg" alt="">
                     <p>Copa sudamericana 2002</p>
                 </div>
                 <div class="tarjet">
-                    <img src="imgs/mercosur2001.jpg" alt="">
+                    <img class="img-copas" src="imgs/mercosur2001.jpg" alt="">
                     <p>Copa Mercosur 2002</p>
                 </div>
                 <div class="tarjet">
-                    <img src="imgs/2013apertura.jpg" alt="">
+                    <img class="img-copas" src="imgs/2013apertura.jpg" alt="">
                     <p>Inicial 2013</p>
                 </div>
             </div>
+        </section>
+
 
         <section>
             <h3>Clásicos</h3>

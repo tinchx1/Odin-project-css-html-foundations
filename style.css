@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    height: 4em;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    list-style: none;
+}
+.nav a {
+    padding-left: 48px;
+    color: #073a70;
+}
+.logo {
+    height: 90%;
+}
+
+/*section 1*/
+
+#casla {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #edf1f5;
+}
+.left {
+    align-self: center;
+}
+.h1 {
+    color: #073a70;
+}
+
+/*section 2*/
+
+
+.title-copas {
+    text-align: center;
+    font-size: 30px;
+    color: #073a70;
+}
